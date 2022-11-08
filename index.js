@@ -3,7 +3,7 @@ const mineflayer = require('mineflayer')
 const bot = mineflayer.createBot({
  host:'ir.skyblock.uz',
  port: 25566,
- username: 'Jabikminer'
+ username: 'KomiljonHelper'
 })
 bot.on('messagestr', (message) => {
   if(message.includes("/register"))
