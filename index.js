@@ -57,8 +57,3 @@ bot.on('chat', (username, message) => {
         }}})
     bot.on('kicked', console.log)
 bot.on('error', console.log)
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privac
