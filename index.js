@@ -3,12 +3,12 @@ const mineflayer = require('mineflayer')
 const bot = mineflayer.createBot({
  host:'ir.skyblock.uz',
  port: 25566,
- username: 'KomiljonHelper'
+ username: 'Jabikminer'
 })
 bot.on('messagestr', (message) => {
-  if(message.includes("/login fazliddinov"))
+  if(message.includes("/register"))
   {
-    bot.chat("/login fazliddinov")
+    bot.chat("/reg fazliddinov fazliddinov")
   }
   
 
@@ -19,7 +19,7 @@ bot.on('messagestr', (message) => {
 bot.on('messagestr', (message) => {
   if(message.includes("/log"))
   {
-    bot.chat("/login login fazliddinov")
+    bot.chat("/login fazliddinov")
   }
   
 
@@ -47,8 +47,8 @@ bot.once("spawn", () => {
 })
 bot.on('chat', (username, message) => {
     if (username === 'FamousTrain1733') {
-    if (message.indexOf('@') !== -1) {
-            var replacement = "@",
+    if (message.indexOf('!') !== -1) {
+            var replacement = "!",
                 toReplace = "",
                 str = message
 
@@ -57,3 +57,8 @@ bot.on('chat', (username, message) => {
         }}})
     bot.on('kicked', console.log)
 bot.on('error', console.log)
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privac
