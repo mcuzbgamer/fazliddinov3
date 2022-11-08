@@ -19,7 +19,7 @@ bot.on('messagestr', (message) => {
 bot.on('messagestr', (message) => {
   if(message.includes("/log"))
   {
-    bot.chat("/login jobir2009")
+    bot.chat("/login login fazliddinov")
   }
   
 
